@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(Assets/1846940.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2.5em;
+    text-decoration: none;
+    display: table;
+    left: 20px;
+    display: inline;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: left;
+    height: 3.0em;
+}
+
+a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 25px;
+}
