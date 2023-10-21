@@ -12,31 +12,3 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-.logo {
-    color: #fff;
-    font-size: 2.5em;
-    text-decoration: none;
-    display: table;
-    left: 20px;
-    display: inline;
-    text-align: justify;
-    text-decoration: none;
-}
-
-.menu {
-    text-align: left;
-    height: 3.0em;
-}
-
-a {
-    color: #fff;
-    font-size: 1.5em;
-    text-decoration: none;
-    margin-left: 25px;
-}
-
-h2 {
-    text-align: flex;
-    margin-top: 15em;
-}
