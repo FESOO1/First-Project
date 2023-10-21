@@ -1,14 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap);
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Tilt Neon', sans-serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    background: url(Assets/1846940.jpg) no-repeat;
+    font-family: 'Tilt Neon', sans-serif;
+    background: url(Assets/4d696f5fc446b83fb68379c4386dd9d3.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+}
+
+nav, .links {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    display: table;
+    height: 2.3em;
+}
+
+.links {
+    list-style: none;
 }
