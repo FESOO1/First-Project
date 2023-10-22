@@ -86,14 +86,9 @@ p {
     width: 20%;
 }
 
-.about, .pic {
-    
-}
-
 /* section 2 */ 
 
 .contact {
-    width: ;
     background-size: cover;
     background: url(Assets/Contact.jpg) no-repeat;
 }
