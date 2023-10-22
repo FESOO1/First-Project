@@ -1,18 +1,31 @@
 /* Basic */
 
-@import url(https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Playpen+Sans:wght@300&family=Tilt+Neon&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Html */
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* Body's CSS */
 
 body {
-    font-family: 'Tilt Neon', sans-serif;
     background: url(Assets/4d696f5fc446b83fb68379c4386dd9d3.jpg) no-repeat;
     background-size: cover;
+}
+
+/* Cursor */
+
+.links {
+    cursor: pointer;
 }
 
 /* menu */
@@ -22,8 +35,9 @@ nav {
 }
 
 .logo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.3em;
+    margin-left: 0.5em;
+    font-family: 'Cairo Play', sans-serif;
+    font-size: 3em;
     display: table-row-group;
 }
 
@@ -33,18 +47,53 @@ a {
     margin-right: 20px;
 }
 
-nav, .links {
+nav {
     align-content: space-between;
     text-align: center;
-    height: 5em;
-    background-color: yellowgreen;
+    height: 5.5em;
+    background-color: rgb(255, 255, 255);
 }
 
 /* */
 
 .links {
-    margin-left: 30%;
-    margin-right: 30%;
+    font-family: 'Tilt Neon', sans-serif;
+    margin-top: 1.5em;
+    margin-left: 60%;
     text-align: right;
-    text-decoration-line: overline;
+}
+
+/* about and logo */
+
+.about {
+    background-color: #fff;
+    margin-top: -9.0em;
+    margin-left: 40%;
+    color: #000000;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+p {
+    font-family: 'Cairo Play', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.pic {
+    margin-inline: 10%;
+    margin-top: 13.0em;
+    width: 20%;
+}
+
+.about, .pic {
+    
+}
+
+/* section 2 */ 
+
+.contact {
+    width: ;
+    background-size: cover;
+    background: url(Assets/Contact.jpg) no-repeat;
 }
