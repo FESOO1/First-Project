@@ -1,3 +1,5 @@
+/* Basic */
+
 @import url(https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap);
 
 * {
@@ -5,22 +7,44 @@
     padding: 0;
 }
 
+/* Body's CSS */
+
 body {
     font-family: 'Tilt Neon', sans-serif;
     background: url(Assets/4d696f5fc446b83fb68379c4386dd9d3.jpg) no-repeat;
     background-size: cover;
 }
 
-nav, .links {
-    display: flex;
-}
+/* menu */
 
 nav {
     display: flex;
-    display: table;
-    height: 2.3em;
 }
 
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3em;
+    display: table-row-group;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.0em;
+    margin-right: 20px;
+}
+
+nav, .links {
+    align-content: space-between;
+    text-align: center;
+    height: 5em;
+    background-color: yellowgreen;
+}
+
+/* */
+
 .links {
-    list-style: none;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: right;
+    text-decoration-line: overline;
 }
