@@ -4,23 +4,25 @@
 }
 
 .texts {
-    background-color: yellowgreen;
+    cursor: not-allowed;
+    background-color: rgb(88, 88, 88);
     height: 4.0em;
-    padding: 0.5em;
     color: red;
     display: flex;
-    justify-content: flex-end;
     justify-content: space-around;
 }
 
 .links {
     font-size: 3em;
+    order: 2;
 }
 
 .links2 {
     font-size: 3em;
+    order: 3;
 }
 
 .links3 {
     font-size: 3em;
+    order: 1;
 }
