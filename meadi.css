@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texts {
+    background-color: yellowgreen;
+    height: 4.0em;
+    padding: 0.5em;
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.links {
+    font-size: 3em;
+}
+
+.links2 {
+    font-size: 3em;
+}
+
+.links3 {
+    font-size: 3em;
+}
