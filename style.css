@@ -1,3 +1,9 @@
+/* imports */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Playpen+Sans:wght@300;400&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800;900&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Playpen+Sans:wght@300;400&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Playpen+Sans:wght@300;400&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
+
 /* Page's size */
 
 * {
@@ -5,27 +11,58 @@
     padding: 0;
 }
 
+/* background image */
+
+body {
+    background: url(Assets/wallpapersden.com_laptop-room-on-the-desk_7680x4320.jpg) no-repeat;
+    background-size: cover;
+}
+
 /* up buttons */
 
 .buttons {
     align-items: center;
     flex-direction: row;
-    background-color: yellowgreen;
     height: 4.5em;
     display: flex;
     justify-content: space-around;
 }
 
 h1 {
-    cursor: none;
+    user-select: none;
+    color: #fff;
+    font-family: 'Cairo Play', sans-serif;  
     font-size: 3.0em;
     margin-right: 20em;
 }
 
 a {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    font-family: 'Kite One', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+    color: #fff;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.5em;
 }
 
-/* */ 
+/* paragraph */
+
+.paragraph {
+    display: flex;
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Cairo Play', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Tilt Neon', sans-serif;
+    padding-top: 270px;
+    padding-left: 590px;
+    font-size: 1.6em;
+    width: 350px;
+}
