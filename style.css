@@ -8,6 +8,7 @@
 
 
 .buttons {
+    flex: content;
     align-items: center;
     flex-direction: row;
     background-color: yellowgreen;
