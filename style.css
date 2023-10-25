@@ -14,7 +14,8 @@
 /* background image */
 
 body {
-    background: url(Assets/wallpapersden.com_laptop-room-on-the-desk_7680x4320.jpg) no-repeat;
+    height: 1200px;
+    background: url(Assets/244438ac7a68a9365e8215b342b805b8.jpeg) no-repeat;
     background-size: cover;
 }
 
