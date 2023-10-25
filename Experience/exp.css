@@ -1,3 +1,7 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Lilita+One&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
+
 /* Basic */ 
 
 * {
@@ -14,6 +18,14 @@ body {
 /* */ 
 
 h1 {
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Iceberg', sans-serif;
+font-family: 'Kite One', sans-serif;
+font-family: 'Lilita One', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
     color: aliceblue;
 }
 
