@@ -5,6 +5,50 @@
     padding: 0;
 }
 
+/* Body */
+
 body {
-    background: url(Assets/244438ac7a68a9365e8215b342b805b8.jpeg);
+    background-image: url(Assets/6449417742.jpg);
 }
+
+/* */ 
+
+h1 {
+    color: aliceblue;
+}
+
+/* */
+
+.exp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(70, 70, 70);
+}
+
+/* */ 
+
+.lists {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+}
+
+/* pics texts */
+
+.pic1 {
+    display: flex;
+}
+
+.pic2 {
+    display: flex;
+}
+
+.pic3 {
+    display: flex;
+}
+
+/*  pictures  */
+
