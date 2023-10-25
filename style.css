@@ -11,6 +11,12 @@
     padding: 0;
 }
 
+/* */ 
+
+html {
+    scroll-behavior: 1.0ms;
+}
+
 /* background image */
 
 body {
@@ -62,8 +68,32 @@ h3 {
     font-family: 'Cairo Play', sans-serif;
     font-family: 'Playpen Sans', cursive;
     font-family: 'Tilt Neon', sans-serif;
-    padding-top: 270px;
-    padding-left: 590px;
+    padding-top: 220px;
+    padding-left: 560px;
     font-size: 1.6em;
     width: 350px;
+}
+
+/* message */
+
+.exps {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+}
+
+.message {
+    border-right: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    mask-border-width: 200px;
+    background-color: rgb(227, 206, 163);
 }
