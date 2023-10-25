@@ -56,6 +56,10 @@ a {
     font-size: 1.5em;
 }
 
+a {
+    text-decoration: underline;
+}
+
 /* paragraph */
 
 .paragraph {
@@ -69,7 +73,7 @@ h3 {
     font-family: 'Playpen Sans', cursive;
     font-family: 'Tilt Neon', sans-serif;
     padding-top: 220px;
-    padding-left: 560px;
+    padding-left: 565px;
     font-size: 1.6em;
     width: 350px;
 }
@@ -79,21 +83,27 @@ h3 {
 .exps {
     padding-top: 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .button {
+    font-size: 15px;
+    width: 60px;
+}
+
+.button {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 110px;
     display: flex;
-    align-items: normal;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .message {
-    border-right: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    mask-border-width: 200px;
-    background-color: rgb(227, 206, 163);
+    border-right: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
