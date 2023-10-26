@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Playpen+Sans:wght@300;400&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800;900&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Playpen+Sans:wght@300;400&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Playpen+Sans:wght@300;400&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
+
 
 /* Page's size */
 
@@ -20,8 +22,8 @@ html {
 /* background image */
 
 body {
-    height: 2000px;
-    background: url(Assets/614c5679674805.5cca9eaa79bda.jpg) no-repeat;
+    height: 1200px;
+    background: url(Assets/244438ac7a68a9365e8215b342b805b8.jpeg) no-repeat;
     background-size: cover;
 }
 
@@ -111,4 +113,36 @@ h3 {
 
 .message {
     height: 20px;
+}
+
+/* section 2 */ 
+
+hr {
+    padding: 2.5px;
+    margin-left: 150px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.experience {
+    margin-top: 70px;
+    margin-left: 250px;
+    text-align: center;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    font-family: 'Kite One', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+    color: #fff;
 }
