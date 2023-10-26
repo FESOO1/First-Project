@@ -20,8 +20,8 @@ html {
 /* background image */
 
 body {
-    height: 1200px;
-    background: url(Assets/244438ac7a68a9365e8215b342b805b8.jpeg) no-repeat;
+    height: 2000px;
+    background: url(Assets/614c5679674805.5cca9eaa79bda.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -77,7 +77,7 @@ h3 {
 /* message */
 
 .exps {
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -107,4 +107,8 @@ h3 {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.message {
+    height: 20px;
 }
