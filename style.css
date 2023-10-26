@@ -60,9 +60,9 @@ a {
 
 a:hover {
     border-radius: 8px;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(114, 114, 114);
     border: 25px;
-    color: rgb(240, 255, 23);
+    color: rgb(238, 255, 0);
 }
 
 /* paragraph */
