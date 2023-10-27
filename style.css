@@ -149,60 +149,39 @@ h2 {
     color: #7b9bf4;
 }
 
-p {
-    color: #000000;
-    margin-top: 20px;
-    font-size: 1.5em;
-    margin-left: 350px;
-    width: 50%;
-    text-align: center;
-}
-
-/* comps */
-
-.comps {
-    padding: 10px;
-    margin-top: 30px;
-    margin-left: 20%;
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.name {
-    color:#ffffff;
-}
-
-.pic1, .pic2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50px;
-}
-
-.pic1 {
-    display: flex;
-    background: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* ff */
-
-.footer, .ffff {
-    margin-top: 90px;
+.section1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer {
-    color: #ffffff;
-    text-decoration: none;
+.section2 {
+    width: 700px;
+    height: 80px;
+    
+}
+
+.legend {
+    color: #fff;
+    background-color: black;
+}
+
+.color, .button2 {
+    margin-top: 5px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.button2 {
+    color: #fff;
+    background-color: #7b9bf4;
+    margin-left: 350px;
+    width: 45px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.color {
+    margin-left: 347px;
 }
