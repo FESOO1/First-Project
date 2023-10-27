@@ -149,6 +149,13 @@ h2 {
     color: #7b9bf4;
 }
 
+h2::before {
+    content: url(Assets/download_364460.png);
+    display: inline;
+    width: 10px;
+    height: 10px;
+}
+
 .section1 {
     display: flex;
     justify-content: center;
