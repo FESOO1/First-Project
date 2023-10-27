@@ -74,6 +74,9 @@ h1 {
 }
 
 h3 {
+    border-color: yellowgreen;
+    border: 25px;
+    border-width: 25px;
     color: #fff;
     font-family: 'Cairo Play', sans-serif;
     font-family: 'Playpen Sans', cursive;
