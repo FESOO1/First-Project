@@ -59,6 +59,7 @@ a {
 }
 
 a:hover {
+    transition: 1.3ms;
     border-radius: 8px;
     background-color: rgb(114, 114, 114);
     border: 25px;
