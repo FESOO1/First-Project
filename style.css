@@ -1,5 +1,6 @@
 /* imports */ 
 
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Playpen+Sans:wght@300;400&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800;900&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Playpen+Sans:wght@300;400&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Playpen+Sans:wght@300;400&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
@@ -66,6 +67,23 @@ h1 {
     color: rgb(238, 255, 0);
 }
 
+.ll::before {
+    content: 'Click the link.';
+    display: block;
+    position: absolute;
+    font-size: 0.5em;
+    color: #ff0000;
+    top: 10%;
+    justify-items: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform ease-out 150ms;
+}
+
+.ll:hover::before {
+    transform: scale(1);
+}
+
 /* paragraph */
 
 .paragraph {
@@ -82,6 +100,10 @@ h3 {
     padding-left: 565px;
     font-size: 1.6em;
     width: 350px;
+}
+
+h3::before {
+    
 }
 
 /* message */
@@ -150,8 +172,12 @@ h2 {
 }
 
 h2::before {
-    content: url(Assets/download_364460.png);
-    display: inline;
+    content: url(Assets/terminal_FILL0_wght400_GRAD0_opsz24.png);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
 }
 
 .section1 {
@@ -189,4 +215,32 @@ h2::before {
 
 .color {
     margin-left: 347px;
+}
+
+/* name transition */
+
+.namee {
+    color: #fff;
+    text-decoration: none;
+}
+
+.namee::after {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    content: 'Firdavs Utkirov, 22 years old, not married, have a desire to lead a team and acquire as much knowledge as possible.';
+    display: block;
+    position: absolute;
+    font-size: 0.5em;
+    width: 15%;
+    top: 30%;
+    left: 50%;
+    color: red;
+    transform: scale(0);
+    transition: transform ease-out 300ms;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.namee:hover::after {
+    transform: scale(1);
 }
