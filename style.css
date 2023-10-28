@@ -59,28 +59,15 @@ h1 {
     font-size: 1.5em;
 }
 
-.ll:hover {
-    transition: 1.3ms;
-    border-radius: 8px;
-    background-color: rgb(114, 114, 114);
-    border: 25px;
-    color: rgb(238, 255, 0);
-}
-
 .ll::before {
-    content: 'Click the link.';
+    content: 'ss';
     display: block;
     position: absolute;
-    font-size: 0.5em;
-    color: #ff0000;
-    top: 10%;
-    justify-items: center;
-    align-items: center;
     transform: scale(0);
-    transition: transform ease-out 150ms;
+    transition: transform step-end 300ms;
 }
 
-.ll:hover::before {
+.li:hover::before {
     transform: scale(1);
 }
 
