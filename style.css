@@ -244,3 +244,34 @@ h2::before {
 .namee:hover::after {
     transform: scale(1);
 }
+
+
+/* button3 */
+
+.button3 {
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3::after {
+    content: 'Firdavs Utkirov, 22 years old, not married, have a desire to lead a team and acquire as much knowledge as possible.';
+    display: block;
+    position: absolute;
+    width: 25%;
+    color: #fff;
+    bottom: -25%;
+    border: 5px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: #7b9bf4;
+    transform: scale(0);
+    transition: transform step-end;
+}
+
+.button3:hover::after {
+    transform: scale(1);
+}
