@@ -59,15 +59,17 @@ h1 {
     font-size: 1.5em;
 }
 
-.ll::before {
-    content: 'ss';
+a::before {
+    content: 'mmm';
     display: block;
-    position: absolute;
+    position: fixed;
+    background-color: #354360;
+    filter: blur(15px);
     transform: scale(0);
-    transition: transform step-end 300ms;
+    transition: transform ease-out 100ms;
 }
 
-.li:hover::before {
+a:hover::before {
     transform: scale(1);
 }
 
