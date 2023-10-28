@@ -152,8 +152,6 @@ h2 {
 h2::before {
     content: url(Assets/download_364460.png);
     display: inline;
-    width: 10px;
-    height: 10px;
 }
 
 .section1 {
