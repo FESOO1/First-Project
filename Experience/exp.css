@@ -1,66 +1,43 @@
-/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans:wght@200&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Iceberg&family=Kite+One&family=Lilita+One&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
-
-/* Basic */ 
+/* general things */
 
 * {
     margin: 0;
     padding: 0;
 }
 
-/* Body */
-
-body {
-    background-image: url(Assets/6449417742.jpg);
-}
-
 /* */ 
 
-h1 {
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Iceberg', sans-serif;
-    font-family: 'Kite One', sans-serif;
-    font-family: 'Lilita One', sans-serif;
-    font-family: 'Playpen Sans', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Tilt Neon', sans-serif;
-    color: aliceblue;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+    background-color: rgb(32, 22, 22);
 }
 
-/* */
+.link {
+    text-decoration: none;
+}
+
+.exp {
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-family: 'Mina', sans-serif;
+    font-size: 3em;
+    width: 250px;
+    height: 80px;
+}
 
 .exp {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 70px;
-    background-color: rgb(70, 70, 70);
+    padding: 0.3em 0.5em;
+    text-shadow: 0 0 0.5em snow;
+    box-shadow: inset 0 0 0.5em red,
+        0 0 0.5em red;
 }
-
-/* */ 
-
-.lists {
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    align-items: last baseline;
-}
-
-/* pics texts */
-
-.pic1 {
-    display: flex;
-}
-
-.pic2 {
-    display: flex;
-}
-
-.pic3 {
-    display: flex;
-}
-
-/*  pictures  */
-
