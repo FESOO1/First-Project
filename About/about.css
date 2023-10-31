@@ -7,22 +7,20 @@
 
 /* */
 
-.all {
-    height: 200px;
+body {
+    background-color: rgb(37, 42, 47);
+}
+
+.container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-color: violet;
-}
-
-.a,.b,.c {
-    width: 150px;
-    height: 150px;
+    height: 500px;
+    width: 900px;
     border: 2px solid;
-    background-color: yellowgreen;
-}
-
-.a1 {
-    margin-top: 48px;
-    text-align: center;
+    border-color: antiquewhite;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 7%;
+    background-image: url();
 }
