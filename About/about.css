@@ -64,3 +64,9 @@ body {
 .name:hover::after {
     transform: scale(1);
 }
+
+/* Below section */
+
+.a::before {
+    content: url(Assets/download_364460.png);
+}
