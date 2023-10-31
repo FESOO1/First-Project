@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
 /* */
 
 * {
@@ -15,6 +16,7 @@ body {
 }
 
 .container {
+    padding: 10px;
     height: 500px;
     width: 900px;
     border: 2px solid;
@@ -67,6 +69,115 @@ body {
 
 /* Below section */
 
-.a::before {
-    content: url(Assets/download_364460.png);
+a {
+    text-decoration: none;
+    color: #fff;
 }
+
+h5 {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    font-family: 'Kite One', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 30px;
+    font-size: 2.0em;
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    margin-left: -8px;
+}
+
+.c {
+    margin-left: 10px;
+}
+
+.a, .b, .c {
+    font-size: 1.5em;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    font-family: 'Kite One', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Salsa', cursive;
+}
+
+.a::before {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    content: '1';
+    position: absolute;
+    left: 380px;
+    background: rgb(255, 255, 255);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: 2px solid;
+    border-color: rgb(255, 2, 2);
+    margin-left: -20px;
+    margin-top: -10px;
+    background-color: #22121269;
+}
+
+.b::before {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    content: '2';
+    position: absolute;
+    left: 380px;
+    background: rgb(255, 255, 255);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: 2px solid;
+    border-color: rgb(255, 2, 2);
+    margin-left: -20px;
+    margin-top: -10px;
+    background-color: #22121269;
+}
+
+.c::before {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    content: '3';
+    position: absolute;
+    left: 380px;
+    background: rgb(255, 255, 255);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: 2px solid;
+    border-color: rgb(255, 2, 2);
+    margin-left: -20px;
+    margin-top: -10px;
+    background-color: #22121269;
+}
+
+/* */
