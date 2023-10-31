@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
+
 /* */
 
 * {
@@ -8,13 +10,11 @@
 /* */
 
 body {
-    background-color: rgb(37, 42, 47);
+    background-image: url(https://fikiwiki.com/uploads/posts/2022-02/1645052341_19-fikiwiki-com-p-kartinki-na-zadnii-fon-22.jpg);
+    background-size: cover;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 500px;
     width: 900px;
     border: 2px solid;
@@ -22,5 +22,45 @@ body {
     border-radius: 15px;
     margin: auto;
     margin-top: 7%;
-    background-image: url();
+    backdrop-filter: blur(22px);
+}
+
+.inside-box {
+    color: aliceblue;
+}
+
+.name {
+    font-family: 'Playpen Sans', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.name::after {
+    padding: 5px;
+    color: #fff;
+    content: 'Contact : +998 99 779 49 48';
+    align-items: center;
+    display: block;
+    position: absolute;
+    border: 2px solid;
+    width: 175px;
+    transform: scale(0);
+    transition: transform ease-out 200ms;
+    border-radius: 15px;
+    border-color: darkorange;
+    margin-left: 535px;
+    font-size: 0.5em;
+    background-color: rgba(25, 31, 31, 0.425);
+    cursor: pointer;
+}
+
+.name:hover::after {
+    transform: scale(1);
 }
