@@ -13,3 +13,11 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.a:first-child {
+    margin-right: auto;
+}
+
+.c:last-child {
+    margin-right: auto;
+}
