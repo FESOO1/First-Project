@@ -18,7 +18,7 @@ body {
 
 .container {
     padding: 10px;
-    height: 700px;
+    height: 950px;
     width: 900px;
     border: 2px solid;
     border-color: antiquewhite;
@@ -91,6 +91,7 @@ h5 {
     font-size: 2.0em;
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 .a {
@@ -215,4 +216,20 @@ hr {
     border-color: turquoise;
     border-radius: 20px;
     background-color: rgba(39, 41, 36, 0.418);
+}
+
+/* Contacting */
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
 }
