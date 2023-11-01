@@ -196,3 +196,23 @@ hr {
     margin-top: 40px;
 }
 
+.l1 {
+    border: 1px solid;
+    border-color: turquoise;
+    border-radius: 20px;
+    background-color: rgba(39, 41, 36, 0.418);
+}
+
+.l2 {
+    border: 1px solid;
+    border-color: turquoise;
+    border-radius: 20px;
+    background-color: rgba(39, 41, 36, 0.418);
+}
+
+.l3 {
+    border: 1px solid;
+    border-color: turquoise;
+    border-radius: 20px;
+    background-color: rgba(39, 41, 36, 0.418);
+}
