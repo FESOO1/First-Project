@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Racing+Sans+One&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Racing+Sans+One&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
 /* */
 
 * {
@@ -221,15 +223,38 @@ hr {
 /* Contacting */
 
 h3 {
+    font-family: 'Croissant One', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    font-family: 'Kite One', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .contact {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Iceberg', sans-serif;
+    font-family: 'Kite One', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Racing Sans One', sans-serif;
     font-size: 1.5em;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 60px;
 }
