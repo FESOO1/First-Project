@@ -11,19 +11,20 @@
 /* */
 
 body {
-    background-image: url(https://fikiwiki.com/uploads/posts/2022-02/1645052341_19-fikiwiki-com-p-kartinki-na-zadnii-fon-22.jpg);
+    padding: 100px;
+    background-image: url(https://top-fon.com/uploads/posts/2023-02/1675517294_top-fon-com-p-krutoi-fon-dlya-prezentatsii-42.jpg);
     background-size: cover;
 }
 
 .container {
     padding: 10px;
-    height: 500px;
+    height: 700px;
     width: 900px;
     border: 2px solid;
     border-color: antiquewhite;
     border-radius: 15px;
     margin: auto;
-    margin-top: 7%;
+    margin-top: 3%;
     backdrop-filter: blur(22px);
 }
 
@@ -181,3 +182,16 @@ h5 {
 }
 
 /* */
+
+hr {
+    margin-top: 50px;
+}
+
+/* */
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
