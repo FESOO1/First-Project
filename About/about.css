@@ -195,3 +195,9 @@ hr {
     align-items: center;
     margin-top: 40px;
 }
+
+.l1::after {
+    content: '';
+    display: flex;
+    position: absolute;
+}
