@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Croissant+One&family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Racing+Sans+One&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
+/* */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* */
+
+body {
+    background: url(https://top-fon.com/uploads/posts/2023-01/1674762517_top-fon-com-p-shablon-prezentatsii-derevyannii-fon-2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    backdrop-filter: blur(15px);
+    width: 40%;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 10px;
+    background-color: rgba(51, 51, 51, 0.382);
+}
+
+h1 {
+    font-size: 10em;
+    color: #fff;
+    user-select: none;
+    font-family: 'Cairo Play', sans-serif;
+}
