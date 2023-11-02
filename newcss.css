@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Croissant+One&family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Racing+Sans+One&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&family=Croissant+One&family=Edu+TAS+Beginner:wght@600&family=Exo+2:ital,wght@0,100;0,300;1,200;1,700&family=Fira+Sans&family=Iceberg&family=Kite+One&family=Lilita+One&family=Mina:wght@700&family=Montserrat&family=Nabla&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@300;400&family=Racing+Sans+One&family=Roboto:ital,wght@0,900;1,900&family=Rubik:ital@1&family=Salsa&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 /* */
 
 * {
@@ -31,4 +34,24 @@ h1 {
     color: #fff;
     user-select: none;
     font-family: 'Cairo Play', sans-serif;
+}
+
+.s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+}
+
+.link {
+    color: orange;
+    text-decoration: none;
+    font-size: 5em;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    font-family: 'Water Brush', cursive;
+    background-color: rgba(49, 5, 5, 0.104);
 }
