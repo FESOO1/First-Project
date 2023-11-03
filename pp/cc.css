@@ -16,3 +16,8 @@ body {
     height: 672px;
     background: linear-gradient(180deg, rgb(0,0,255)70%, rgb(255,0,0)) no-repeat;
 }
+
+h1 {
+    border-radius: 90px;
+    background: linear-gradient(90deg, rgb(255,125,0)55%, rgb(0,255,255));
+}
