@@ -260,3 +260,43 @@ h3 {
     text-decoration: underline;
 }
 
+/* contacting hovers */
+
+.mail:hover {
+    content: '';
+    perspective: 500px;
+    --rotateX: 0deg;
+    --rotateY: 0deg;
+    color: rgba(228, 223, 217, 0.963);
+
+    transform: perspective(11111px) 
+        rotateX(0deg)
+        rotateY(20deg);
+        transition: transform ease-out 300ms;
+}
+
+.number:hover {
+    content: '';
+    perspective: 500px;
+    --rotateX: 0deg;
+    --rotateY: 0deg;
+    color: rgba(228, 223, 217, 0.963);
+
+    transform: perspective(11111px) 
+        rotateX(0deg)
+        rotateY(20deg);
+        transition: transform ease-out 300ms;
+}
+
+.telegram:hover {
+    content: '';
+    perspective: 500px;
+    --rotateX: 0deg;
+    --rotateY: 0deg;
+    color: rgba(228, 223, 217, 0.963);
+
+    transform: perspective(11111px) 
+        rotateX(0deg)
+        rotateY(20deg);
+        transition: transform ease-out 300ms;
+}
