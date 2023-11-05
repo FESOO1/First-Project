@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
 /* */ 
 
 * {
@@ -61,12 +64,14 @@ img {
 }
 
 .inside-box {
+    font-family: 'Yusei Magic', sans-serif;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90px;
-    width: 325px;
+    width: 320px;
+    margin: auto;
 }
 
 /* footer */ 
@@ -84,7 +89,7 @@ p {
 
 .link2 {
     font-style: oblique;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
