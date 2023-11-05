@@ -83,5 +83,10 @@ footer {
 
 .link2:hover {
     content: '';
-    color: blue;
+    padding: 5px;
+    background: linear-gradient(50deg, rgb(0,55,255), rgb(0,255,255));
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    transition: all ease-in-out 250ms;
 }
