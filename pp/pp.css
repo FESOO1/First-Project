@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap');
 /* */ 
 
 * {
@@ -73,6 +76,10 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 130px;
+}
+
+p {
+    font-family: 'Turret Road', sans-serif;
 }
 
 .link2 {
