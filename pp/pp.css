@@ -74,6 +74,16 @@ img {
     margin: auto;
 }
 
+.inside-box {
+    color: rgb(0, 0, 0);
+    transition: color ease-out 0.5s;
+}
+
+.inside-box:hover {
+    color: rgb(255, 0, 0);
+    transition: color ease-out 1s;
+}
+
 /* footer */ 
 
 footer {
