@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* adjusting the size of the page */
 
 * {
@@ -34,6 +34,38 @@ a {
     background-color: red;
     margin: auto;
     border-radius: 8px;
+    margin-bottom: 1px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 230px;
+    background-color: red;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 1px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 230px;
+    background-color: red;
+    margin: auto;
+    border-radius: 8px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .youtube {
@@ -49,4 +81,13 @@ a {
 
 .material-symbols-outlined {
     margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/* hr */
+
+hr {
+    margin-top: 5px;
+    width: 200px;
+    color: antiquewhite;
 }
