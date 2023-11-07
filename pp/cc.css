@@ -9,6 +9,12 @@
     margin: 0;
 }
 
+/* body */
+
+body {
+    background: linear-gradient(45deg, rgba(255, 0, 0, 1), rgb(0,255,0,0.70));
+}
+
 /* control panel */
 
 .container-box {
@@ -111,4 +117,7 @@ hr {
     width: 225px;
     height: 1px;
     color: antiquewhite;
+    border-top-color: rgb(23, 23, 23);
+    border-left-color: rgb(23, 23, 23);
+    border-right-color: rgb(23, 23, 23);
 }
