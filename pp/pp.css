@@ -122,6 +122,6 @@ p {
 }
 
 .video-box:hover::after {
-    color: white;
+    color: rgb(0, 255, 50);
     transition: color ease-out 1s;
 }
