@@ -1,0 +1,14 @@
+/* adjusting the size of the page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* control panel */
+
+.container-box {
+    width: 236px;
+    height: 730px;
+    background-color: rgb(23, 23, 23);
+}
