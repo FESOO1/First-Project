@@ -114,3 +114,7 @@ p {
 }
 
 /* video */
+
+.video-box::after {
+    content: 'Watch the videoa above.';
+}
