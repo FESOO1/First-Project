@@ -102,13 +102,19 @@ h5 {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-
 /* symbols */
 
 .material-symbols-outlined {
-    margin-right: 10px;
+    display: flex;
+    margin-right: 100px;
     margin-bottom: 5px;
 }
+
+.three {
+    margin-left: 48px;
+}
+
+
 
 /* hr */
 
@@ -120,4 +126,16 @@ hr {
     border-top-color: rgb(23, 23, 23);
     border-left-color: rgb(23, 23, 23);
     border-right-color: rgb(23, 23, 23);
+}
+
+/* second section */
+
+.second-section {
+    display: flex;
+    margin-left: 20px;
+}
+
+.you {
+    margin-left: 10px;
+    margin-top: 3px;
 }
