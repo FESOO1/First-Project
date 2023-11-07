@@ -71,7 +71,7 @@ img {
     align-items: center;
     height: 90px;
     width: 320px;
-    margin: auto;
+    margin-top: 40px;
 }
 
 .inside-box {
@@ -112,3 +112,5 @@ p {
     border-radius: 5px;
     transition: all ease-in-out 250ms;
 }
+
+/* video */
