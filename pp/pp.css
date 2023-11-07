@@ -117,6 +117,7 @@ p {
 
 .video-box {
     height: 90px;
+    background-color: red;
 }
 
 .video-box::after {
