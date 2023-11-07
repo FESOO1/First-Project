@@ -36,7 +36,6 @@ a {
 }
 
 .button1 {
-    overflow-inline: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,19 +75,16 @@ h5 {
 
 .button1:hover {
     height: 40px;
-    width: 230px;
     background-color: rgb(37, 37, 37);
 }
 
 .button2:hover {
     height: 40px;
-    width: 230px;
     background-color: rgb(37, 37, 37);
 }
 
 .button3:hover {
     height: 40px;
-    width: 230px;
     background-color: rgb(37, 37, 37);
 }
 
@@ -111,9 +107,8 @@ h5 {
 }
 
 .three {
-    display: flex;
-    justify-content: flex-start;
 }
+
 
 
 
