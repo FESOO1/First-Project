@@ -124,12 +124,12 @@ p {
     display: flex;
     justify-content: center;
     content: 'Watch the video above.';
-    color: red;
+    color: black;
     transition: color ease-out 0.5s ;
 }
 
 .video-box:hover::after {
-    color: rgb(0, 255, 50);
+    color: rgb(255, 0, 0);
     transition: color ease-out 1s;
 }
 
