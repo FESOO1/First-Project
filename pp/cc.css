@@ -9,11 +9,13 @@
     margin: 0;
 }
 
-/* body */
+/* body 
 
 body {
     background: linear-gradient(45deg, rgba(255, 0, 0, 1), rgb(0,255,0,0.70));
 }
+
+*/
 
 /* control panel */
 
@@ -34,6 +36,7 @@ a {
 }
 
 .button1 {
+    overflow-inline: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,9 +69,7 @@ a {
 }
 
 h5 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    margin-left: -80px;
     margin-top: 3px;
     font-family: 'Poppins', sans-serif;
 }
@@ -105,13 +106,13 @@ h5 {
 /* symbols */
 
 .material-symbols-outlined {
-    display: flex;
     margin-right: 100px;
     margin-bottom: 5px;
 }
 
 .three {
-    margin-left: 48px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
