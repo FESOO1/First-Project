@@ -115,6 +115,10 @@ p {
 
 /* video */
 
+.video-box {
+    height: 90px;
+}
+
 .video-box::after {
     content: 'Watch the videoa above.';
     color: red;
