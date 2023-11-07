@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 /* adjusting the size of the page */
 
 * {
@@ -8,7 +10,34 @@
 /* control panel */
 
 .container-box {
+    color: white;
     width: 236px;
     height: 730px;
     background-color: rgb(23, 23, 23);
+}
+
+/* buttons */
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.youtube {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+
+/* symbols */
+
+.material-symbols-outlined {
+    display: inline-block;
+    justify-content: center;
+    gap: 5px;
 }
