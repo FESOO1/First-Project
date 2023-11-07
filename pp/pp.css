@@ -116,12 +116,14 @@ p {
 /* video */
 
 .video-box {
-    height: 90px;
-    background-color: red;
+    width: 94%;
+    height: 151px;
 }
 
 .video-box::after {
-    content: 'Watch the videoa above.';
+    display: flex;
+    justify-content: center;
+    content: 'Watch the video above.';
     color: red;
     transition: color ease-out 0.5s ;
 }
@@ -129,4 +131,9 @@ p {
 .video-box:hover::after {
     color: rgb(0, 255, 50);
     transition: color ease-out 1s;
+}
+
+.video {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
 }
