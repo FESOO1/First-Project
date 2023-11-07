@@ -117,4 +117,11 @@ p {
 
 .video-box::after {
     content: 'Watch the videoa above.';
+    color: red;
+    transition: color ease-out 0.5s ;
+}
+
+.video-box:hover::after {
+    color: white;
+    transition: color ease-out 1s;
 }
