@@ -252,13 +252,13 @@ hr {
     display: flex;
     justify-content: center;
     border: 1px solid;
-    border-color: rgb(37, 37, 37);
-    background-color: rgb(28, 28, 28);
+    border-color: rgb(50, 50, 50);
+    background-color: rgb(18, 18, 18);
 }
 
 .search-button {
-    border: 2px solid;
-    border-color: rgb(37, 37, 37);
+    border: 1px solid;
+    border-color: rgb(50, 50, 50);
     border-radius: 90px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -266,4 +266,5 @@ hr {
     height: 40px;
     display: flex;
     position: absolute;
+    background-color: rgb(37, 37, 37);
 }
