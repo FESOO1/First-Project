@@ -230,3 +230,40 @@ hr {
     background-color: rgb(37, 37, 37);
     transition: background-color ease-out 0.5s;
 }
+
+/* Main menu */
+
+.main-menu {
+    height: 728px;
+    margin-top: -738px;
+    margin-left: 237px;
+    width: 1250px;
+    background-color: rgb(15, 15, 15)
+}
+
+.search-input {
+    border-radius: 90px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-left: 20px;
+    margin: 10px auto;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: rgb(37, 37, 37);
+    background-color: rgb(28, 28, 28);
+}
+
+.search-button {
+    border: 2px solid;
+    border-color: rgb(37, 37, 37);
+    border-radius: 90px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+}
