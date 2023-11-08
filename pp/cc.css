@@ -149,15 +149,20 @@ hr {
 /* Other buttons such as history or channels... */
 
 .secondbutton-container {
-    height: 400px;
+    height: 350px;
+    width: 236px;
     background-color: yellowgreen;
     display: flex;
     position: absolute;
     justify-content: center;
-    margin: auto;
+    margin-top: 395px;
+    margin-left: -3px;
 }
 
 .you-buttons {
-    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 230px;
 }
 
