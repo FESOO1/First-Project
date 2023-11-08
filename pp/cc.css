@@ -145,3 +145,19 @@ hr {
 .second-section:hover {
     background-color: rgb(37, 37, 37);
 }
+
+/* Other buttons such as history or channels... */
+
+.secondbutton-container {
+    height: 400px;
+    background-color: yellowgreen;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin: auto;
+}
+
+.you-buttons {
+    margin-top: 90px;
+}
+
