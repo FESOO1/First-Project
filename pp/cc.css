@@ -234,7 +234,7 @@ hr {
 /* Main menu */
 
 .main-menu {
-    height: 728px;
+    height: 738px;
     margin-top: -738px;
     margin-left: 237px;
     width: 1250px;
@@ -249,11 +249,11 @@ hr {
     margin: 10px auto;
     width: 500px;
     height: 40px;
-    display: flex;
-    justify-content: center;
+    display: grid;
     border: 1px solid;
     border-color: rgb(50, 50, 50);
     background-color: rgb(18, 18, 18);
+    color: white;
 }
 
 .search-button {
@@ -264,7 +264,16 @@ hr {
     border-top-left-radius: 0;
     width: 80px;
     height: 40px;
-    display: flex;
-    position: absolute;
     background-color: rgb(37, 37, 37);
 }
+
+.search-input, .search-button {
+    position: absolute;
+    margin-left: 270px;
+}
+
+.search-button {
+    margin-left: 771px;
+    margin-top: 10px;
+}
+
