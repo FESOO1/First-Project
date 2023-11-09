@@ -277,3 +277,10 @@ hr {
     margin-top: 10px;
 }
 
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
