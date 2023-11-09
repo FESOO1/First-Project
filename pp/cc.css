@@ -262,7 +262,7 @@ hr {
     border-radius: 90px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    width: 80px;
+    width: 70px;
     height: 40px;
     background-color: rgb(37, 37, 37);
 }
@@ -282,5 +282,5 @@ hr {
     display: flex;
     align-items: center;
     color: white;
-    margin: auto;
+    margin: 3px auto;
 }
