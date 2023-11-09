@@ -144,6 +144,8 @@ hr {
 
 .youlink:hover {
     background-color: rgb(37, 37, 37);
+    font-size: 1.1em;
+    transition: font-size ease-in-out 300ms;
 }
 
 /* Other buttons such as history or channels... */
