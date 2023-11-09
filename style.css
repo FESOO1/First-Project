@@ -23,7 +23,7 @@ html {
 /* background image */
 
 body {
-    height: 1200px;
+    height: 730px;
     background: url(Assets/244438ac7a68a9365e8215b342b805b8.jpeg) no-repeat;
     background-size: cover;
 }
@@ -32,7 +32,6 @@ body {
 
 .buttons {
     align-items: center;
-    flex-direction: row;
     height: 4.5em;
     display: flex;
     justify-content: space-around;
@@ -59,12 +58,26 @@ h1 {
     font-size: 1.5em;
 }
 
+.ll:hover {
+    color: rgb(66, 66, 66);
+    padding: 5px;
+    border-radius: 10px;
+    border-color: red;
+    background-color: rgb(70, 209, 255);
+    border: 1px solid;
+    box-shadow: 0px 0px 20px 5px rgb(70, 209, 255);
+    transition: all ease-out 150ms;
+}
+
 
 /* paragraph */
 
 .paragraph {
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 600px;
 }
 
 h3 {
@@ -72,182 +85,6 @@ h3 {
     font-family: 'Cairo Play', sans-serif;
     font-family: 'Playpen Sans', cursive;
     font-family: 'Tilt Neon', sans-serif;
-    padding-top: 220px;
-    padding-left: 565px;
     font-size: 1.6em;
     width: 350px;
-}
-
-h3::before {
-    
-}
-
-/* message */
-
-.exps {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.button {
-    font-size: 15px;
-    width: 60px;
-}
-
-.button {
-    color: #fff;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    margin-top: 5px;
-    margin-left: 110px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.button:hover {
-    color: #ff0000;
-}
-
-.message {
-    font-style: italic;
-    color: #fff;
-    background-color: rgb(123, 123, 123);
-    border-right: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.message {
-    height: 20px;
-}
-
-/* section 2 */ 
-
-hr {
-    padding: 2.5px;
-    margin-left: 150px;
-    width: 80%;
-    margin-top: 20px;
-}
-
-.hr2 {
-    margin-top: 100px;
-}
-
-h2 {
-    font-family: 'Mina', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    font-size: 2.3em;
-    color: #7b9bf4;
-}
-
-h2::before {
-    content: url(Assets/terminal_FILL0_wght400_GRAD0_opsz24.png);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-}
-
-.section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section2 {
-    width: 700px;
-    height: 80px;
-    
-}
-
-.legend {
-    color: #fff;
-    background-color: black;
-}
-
-.color, .button2 {
-    margin-top: 5px;
-    margin-left: 150px;
-    display: flex;
-}
-
-.button2 {
-    color: #fff;
-    background-color: #7b9bf4;
-    margin-left: 350px;
-    width: 45px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.color {
-    margin-left: 347px;
-}
-
-/* name transition */
-
-.namee {
-    color: #fff;
-    text-decoration: none;
-}
-
-.namee::after {
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Iceberg', sans-serif;
-    content: 'Firdavs Utkirov, 22 years old, not married, have a desire to lead a team and acquire as much knowledge as possible.';
-    display: block;
-    position: absolute;
-    font-size: 0.5em;
-    width: 15%;
-    top: 30%;
-    left: 50%;
-    color: red;
-    transform: scale(0);
-    transition: transform ease-out 300ms;
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-}
-
-.namee:hover::after {
-    transform: scale(1);
-}
-
-
-/* button3 */
-
-.button3 {
-    margin-top: 10%;
-    margin-left: 50%;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button3::after {
-    content: 'Firdavs Utkirov, 22 years old, not married, have a desire to lead a team and acquire as much knowledge as possible.';
-    display: block;
-    position: absolute;
-    width: 25%;
-    color: #fff;
-    bottom: -25%;
-    border: 5px;
-    border-radius: 15px;
-    border-color: black;
-    background-color: #7b9bf4;
-    transform: scale(0);
-    transition: transform step-end;
-}
-
-.button3:hover::after {
-    transform: scale(1);
 }
