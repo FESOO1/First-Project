@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(242, 242, 242);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,22 +12,36 @@
     height: 40px;
     margin: 350px auto;
     border-radius: 5px;
-    box-shadow: 0px 5px 40px rgba(10, 10, 10,0.3);
+    box-shadow: 0px 9px 20px rgba(10, 10, 10, 0.6);
 }
 
 .line {
+    border-radius: 90px;
     display: flex;
     justify-content: center;
     width: 190px;
     height: 3px;
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(0, 0, 0);
     margin: -326px auto;
 }
 
 .link {
     text-decoration: none;
-    color: rgb(0, 255, 255);
-    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container:hover {
+    width: 200px;
+    height: 60px;
+    box-shadow: 0px 9px 20px rgb(255, 0, 0);
+    background-color: black;
+    transition: all ease-in-out 0.7s;
+}
+
+.link:hover {
+    font-size: 2.8em;
+    color: white;
+    transition: all ease-in-out 0.7s;
+}
