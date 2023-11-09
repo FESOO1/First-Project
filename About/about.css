@@ -263,40 +263,16 @@ h3 {
 /* contacting hovers */
 
 .mail:hover {
-    content: '';
-    perspective: 500px;
-    --rotateX: 0deg;
-    --rotateY: 0deg;
-    color: rgba(228, 223, 217, 0.963);
-
-    transform: perspective(11111px) 
-        rotateX(0deg)
-        rotateY(20deg);
-        transition: transform ease-out 300ms;
+    font-size: 1.5em;
+    transition: text-decoration, font-size ease-out 0.2s;
 }
 
 .number:hover {
-    content: '';
-    perspective: 500px;
-    --rotateX: 0deg;
-    --rotateY: 0deg;
-    color: rgba(228, 223, 217, 0.963);
-
-    transform: perspective(11111px) 
-        rotateX(0deg)
-        rotateY(20deg);
-        transition: transform ease-out 300ms;
+    font-size: 1.5em;
+    transition: font-size ease-out 0.2s;
 }
 
 .telegram:hover {
-    content: '';
-    perspective: 500px;
-    --rotateX: 0deg;
-    --rotateY: 0deg;
-    color: rgba(228, 223, 217, 0.963);
-
-    transform: perspective(11111px) 
-        rotateX(0deg)
-        rotateY(20deg);
-        transition: transform ease-out 300ms;
+    font-size: 1.5em;
+    transition: text-decoration, font-size ease-out 0.2s;
 }
