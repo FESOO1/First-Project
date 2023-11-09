@@ -292,7 +292,7 @@ hr {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    margin-top: 140px;
+    margin-top: 120px;
 }
 
 img {
@@ -300,6 +300,7 @@ img {
 }
 
 figcaption {
+    margin-top: 3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
@@ -315,3 +316,5 @@ figure {
     gap: 4rem;
     margin-top: 100px;
 }
+
+/* */
