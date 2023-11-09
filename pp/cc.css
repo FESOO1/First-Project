@@ -234,6 +234,7 @@ hr {
 /* Main menu */
 
 .main-menu {
+    position: fixed;
     height: 738px;
     margin-top: -738px;
     margin-left: 237px;
@@ -283,4 +284,19 @@ hr {
     align-items: center;
     color: white;
     margin: 3px auto;
+}
+
+/* Videos */
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 150px;
+}
+
+.video1, .video2, .video3 {
+    border-radius: 7px;
+    width: 350px;
+    height: 200px;
 }
