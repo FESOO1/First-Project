@@ -292,11 +292,26 @@ hr {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
-.video1, .video2, .video3 {
-    border-radius: 7px;
+img {
+    border-radius: 10px;
+}
+
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+figure {
     width: 350px;
-    height: 200px;
+    align-items: center;
+}
+
+.videos2 {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 100px;
 }
