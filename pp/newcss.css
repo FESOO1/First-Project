@@ -34,3 +34,10 @@
     height: 350px;
     transition: all ease-in 150ms;
 }
+
+.imgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
