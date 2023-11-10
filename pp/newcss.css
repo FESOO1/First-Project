@@ -5,15 +5,32 @@
 
 /* sections 1 and 2 */
 
+
+ /* section 1 */
 .section1 {
-    background-color: antiquewhite;
+    background-color: rgb(91, 91, 90);
     width: 100%;
     height: 729.1px;
     position: relative;
 }
 
+/* section2 */
+
 .section2 {
     background-color: bisque;
     width: 100%;
     height: 730px;
+    position: relative;
+}
+
+.image1 {
+    margin-left: 550px;
+    margin-top: 250px;
+    box-shadow: 0px 5px 15px;
+}
+
+.image1:hover {
+    width: 450px;
+    height: 350px;
+    transition: all ease-in 150ms;
 }
