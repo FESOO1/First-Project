@@ -15,3 +15,12 @@ p {
     width: 80%;
     margin: 50px auto;
 }
+
+.grid-container2 {
+    display: flex;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
