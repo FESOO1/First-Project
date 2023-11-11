@@ -13,3 +13,16 @@
     border: 1px solid;
     border-radius: 5px;
 }
+
+/* */
+.container1 {
+    gap: 0.5rem;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+}
+
+.items1 {
+    border: 2px solid red;
+    border-radius: 5px;
+}
