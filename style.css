@@ -77,6 +77,7 @@ h1 {
 
 h3 {
     border-radius: 90px;
+    border-style: inset;
     padding: 10px;
     background-color: rgba(0,0,0,0.2);
     color: #fff;
@@ -88,5 +89,4 @@ h3 {
 
 h3:hover {
     background: linear-gradient(90deg, rgb(255,0,0), rgb(255,125,0),rgb(0,255,124));
-    transition: all ease-in-out 200ms;
 }
