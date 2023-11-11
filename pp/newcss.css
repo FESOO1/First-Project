@@ -3,25 +3,13 @@
     margin: 0;
 }
 
-p {
-    padding: 10px;
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+.items {
     border: 1px solid;
-    height: 80%;
-    width: 80%;
-    margin: 50px auto;
-}
-
-.grid-container2 {
-    display: flex;
-}
-
-.grid-container3 {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin-left: 15%;
+    border-radius: 5px;
 }
