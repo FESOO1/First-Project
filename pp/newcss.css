@@ -8,8 +8,6 @@ p {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 40% 30% 30%;
     border: 1px solid;
     height: 80%;
     width: 80%;
@@ -23,4 +21,5 @@ p {
 .grid-container3 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    margin: auto;
 }
