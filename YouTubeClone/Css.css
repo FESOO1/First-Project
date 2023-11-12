@@ -9,39 +9,23 @@ body {
     background-color: rgb(13,13,13);
 }
 
+/* Top and left and menu grids */
+
 .container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 5%;
-    height: 730px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: ;
+}
+
+.search {
+    border: 1px;
     background-color: yellowgreen;
 }
 
-.button-div {
-    margin-top: 10px;
+.you {
+    background-color: red;
 }
 
-button {
-    justify-content: center;
-    display: flex;
-    width: 35px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.home-button {
-    display: flex;
-    position: absolute;
-    margin-top: 100px;
-}
-
-.home {
-}
-
-.container:focus {
-    width: 20%;
+.menu {
+    background-color: whitesmoke;
 }
