@@ -16,10 +16,11 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: 18% 82%;
-    grid-template-rows: 730px 25px;
+    grid-template-rows: 730px;
 }
 
 .search {
+    height: 50px;
     background-color: yellowgreen;
 }
 
@@ -29,5 +30,7 @@ body {
 }
 
 .menu {
+    height: 500px;
     background-color: whitesmoke;
+    grid-area: auto;
 }
