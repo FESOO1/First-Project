@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgb(100,100,100), rgb(40,40,40));
+    background: linear-gradient(90deg, rgb(200,200,200), rgb(40,40,40));
     height: 730px;
     position: relative;
 }
