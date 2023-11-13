@@ -87,7 +87,9 @@ a {
 /* designs of inputs */
 
 .email, .password {
+    border-radius: 15px;
     padding: 15px 40px;
+    margin-left: -50px;
 }
 
 .sign {
