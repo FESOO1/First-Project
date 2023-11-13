@@ -80,14 +80,19 @@ a {
 }
 
 .login {
-    display: grid;
-    grid-template-rows: 30px 50px 20px;
-    justify-content: center;
+    color: white;
     padding: 200px;
 }
 
 /* designs of inputs */
 
-h3 {
+.email, .password {
+    padding: 15px 40px;
 }
 
+.sign {
+    margin-top: 25px;
+    padding: 5px;
+    width: 100px;
+    margin-left: 45px;
+}
