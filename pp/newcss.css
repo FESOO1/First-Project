@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@700&display=swap');
 
 
 /* */
@@ -26,6 +26,7 @@ body {
 }
 
 .logo {
+    font-family: 'Thasadith', sans-serif;
     color: white;
     user-select: none;
     font-size: 2em;
@@ -55,3 +56,5 @@ a {
 .home:hover {
     background: linear-gradient(180deg, rgb(40,40,40),rgb(100,100,100), rgb(40,40,40));
 }
+
+/* footer */ 
