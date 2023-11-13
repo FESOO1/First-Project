@@ -11,6 +11,8 @@
 
 body {
     background: linear-gradient(90deg, rgb(100,100,100), rgb(40,40,40));
+    height: 730px;
+    position: relative;
 }
 
 /* */
@@ -63,4 +65,17 @@ a {
     background: linear-gradient(180deg, rgb(25,25,25),rgb(100,100,100), rgb(25,25,25));
 }
 
-/* footer */ 
+/* Login form */
+
+.login-form {
+    box-shadow:  
+        inset 0 0 8px 0 rgb(0, 255, 255),
+       0 0 20px 0 rgb(0, 255, 255);
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    margin: 55px auto;
+    width: 650px;
+    height: 550px;
+    background: linear-gradient(90deg, rgba(20,20,20,0.3), rgba(80,80,80,0.3));
+}
