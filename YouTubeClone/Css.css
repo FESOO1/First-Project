@@ -24,7 +24,18 @@ body {
 }
 
 .you {
-    background-color: red;
-    height: 730px;
+    background-color: rgb(25, 25 ,25);
+    height: 721.5px;
 }
 
+h2 {
+    color: white;
+    padding-left: 5px;
+}
+
+.youtube-logo {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
