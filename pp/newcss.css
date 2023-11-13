@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+
+
+/* */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,17 +13,7 @@ body {
     background: linear-gradient(90deg, rgb(100,100,100), rgb(40,40,40));
 }
 
-body:focus {
-    background: linear-gradient(90deg,rgb(40,40,40),  rgb(100,100,100));
-    transition: all ease-in-out 200ms;
-}
-
 /* */
-
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
 
 .container {
     font-size: 1.3em;
@@ -26,10 +22,12 @@ a {
     align-items: center;
     height: 60px;
     background-color: rgb(25, 25, 25);
+    box-shadow: 0 2px 3px 0 black;
 }
 
-
 .logo {
+    color: white;
+    user-select: none;
     font-size: 2em;
     margin-left: 50px;
 }
@@ -37,4 +35,23 @@ a {
 .about {
     margin-left: -950px;
     margin-right: 90px;
+}
+
+/* */
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    position: relative;
+    font-family: 'Julee', cursive;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Hovers */
+
+.home:hover {
+    background: linear-gradient(180deg, rgb(40,40,40),rgb(100,100,100), rgb(40,40,40));
 }
