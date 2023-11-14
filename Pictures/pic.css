@@ -79,6 +79,7 @@ img {
 }
 
 .picture4:active {
+    box-shadow: 0 0 15px 0 rgb(0,255,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -86,11 +87,9 @@ img {
     transition: all ease-in-out 0.7s;
 }
 
-/* hovers of pictures 
+/* hovers of pictures */
 
 .picture1:hover {
-    z-index: 1;
-    box-shadow: 0 0 5px 0 rgb(0,255,255);
+    box-shadow: 2px 2px 11px 0 rgb(0,255,255);
+    transition: all ease-out 500ms;
 }
-
-*/
