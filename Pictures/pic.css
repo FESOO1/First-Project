@@ -11,7 +11,7 @@ body {
 }
 
 body:active {
-    opacity: 100%;
+    backdrop-filter: blur(0px);
 }
 
 .container {
@@ -20,7 +20,6 @@ body:active {
     position: fixed;
     backdrop-filter: blur(20px);
 }
-
 
 img {
     display: flex;
