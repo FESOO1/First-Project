@@ -141,12 +141,14 @@ a:hover {
     transition: all ease-in-out 600ms;
 }
 
-h1 {
-    user-select: none;
-    color: rgb(255, 127, 0);
+/* hint */
+
+.hint {
     position: absolute;
-    margin-top: 700px;
-    margin-left: 780px;
-    font-size: 1em;
-    text-decoration: underline;
+    margin-top: 670px;
+    margin-left: 1420px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    filter: drop-shadow(0 -2px 5px orange);
 }
