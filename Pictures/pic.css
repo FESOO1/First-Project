@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -120,6 +122,17 @@ img {
 /* */
 
 .link {
-    color: white;
     position: absolute;
+    margin-left: 750px;
+    margin-top: 222px;
+}
+
+a {
+    font-size: 10em;
+    font-family: 'Give You Glory', cursive;
+    color: white;
+}
+
+a:hover {
+    filter: drop-shadow(22px 15px 15px 22px rgb(20,20,20));
 }
