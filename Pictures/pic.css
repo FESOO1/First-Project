@@ -16,21 +16,34 @@ img {
 }
 
 .picture1 {
+    border-radius: 5px;
     position: absolute;
     margin-left: 100px;
     margin-top: 220px;
-    box-shadow: 5px 0 5px 0 black;
+    box-shadow: 5px 5px 5px 0 black;
 }
 
 .picture2 {
+    border-radius: 5px;
     margin-left: 50px;
     margin-top: 220px;
     position: absolute;
-    box-shadow: 5px 0 5px 0 black;
+    box-shadow: 5px 5px 5px 0 black;
 }
 
 
 .picture1, .picture2 {
     width: 25%;
     height: 215px;
+}
+ /* hovers */
+
+.picture1:active {
+    margin-left: 530px;
+    transition: all ease-out 0.7s;
+}
+
+.picture2:active {
+    margin-left: 550px;
+    transition: all ease-in-out 0.7s;
 }
