@@ -19,7 +19,7 @@ img {
     border-radius: 5px;
     position: absolute;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 120px;
     box-shadow: 5px 5px 5px 0 black;
 }
 
@@ -34,7 +34,7 @@ img {
 .picture3 {
     border-radius: 5px;
     margin-left: 100px;
-    margin-top: 400px;
+    margin-top: 380px;
     position: absolute;
     box-shadow: 5px 5px 5px 0 black;
 }
@@ -55,6 +55,7 @@ img {
  /* actives */
 
 .picture1:active {
+    box-shadow: 0 0 20px 10px rgb(0,255,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -63,6 +64,7 @@ img {
 }
 
 .picture2:active {
+    box-shadow: 0 0 20px 10px rgb(0,255,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -71,6 +73,7 @@ img {
 }
 
 .picture3:active {
+    box-shadow: 0 0 20px 10px rgb(0,255,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -79,7 +82,7 @@ img {
 }
 
 .picture4:active {
-    box-shadow: 0 0 15px 0 rgb(0,255,255);
+    box-shadow: 0 0 20px 10px rgb(0,255,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -90,6 +93,22 @@ img {
 /* hovers of pictures */
 
 .picture1:hover {
-    box-shadow: 2px 2px 11px 0 rgb(0,255,255);
+    box-shadow: 2px 2px 8px 0 rgb(0,255,255);
     transition: all ease-out 500ms;
 }
+
+.picture2:hover {
+    box-shadow: 2px 2px 8px 0 rgb(0,255,255);
+    transition: all ease-out 500ms;
+}
+
+.picture3:hover {
+    box-shadow: 2px 2px 8px 0 rgb(0,255,255);
+    transition: all ease-out 500ms;
+}
+
+.picture4:hover {
+    box-shadow: 2px 2px 8px 0 rgb(0,255,255);
+    transition: all ease-out 500ms;
+}
+
