@@ -119,7 +119,7 @@ img {
 
 /* */
 
-footer {
-    font-size: 3em;
-    opacity: 100%;
+.link {
+    color: white;
+    position: absolute;
 }
