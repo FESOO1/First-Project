@@ -19,31 +19,78 @@ img {
     border-radius: 5px;
     position: absolute;
     margin-left: 100px;
-    margin-top: 220px;
+    margin-top: 100px;
     box-shadow: 5px 5px 5px 0 black;
 }
 
 .picture2 {
     border-radius: 5px;
     margin-left: 50px;
-    margin-top: 220px;
+    margin-top: 80px;
+    position: absolute;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+.picture3 {
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 400px;
+    position: absolute;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+.picture4 {
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 420px;
     position: absolute;
     box-shadow: 5px 5px 5px 0 black;
 }
 
 
-.picture1, .picture2 {
+.picture1, .picture2, .picture3, .picture4 {
     width: 25%;
     height: 215px;
 }
- /* hovers */
+ /* actives */
 
 .picture1:active {
-    margin-left: 530px;
+    margin-top: 200px;
+    margin-left: 700px;
+    width: 45%;
+    height: 370px;
     transition: all ease-out 0.7s;
 }
 
 .picture2:active {
-    margin-left: 550px;
+    margin-top: 200px;
+    margin-left: 700px;
+    width: 45%;
+    height: 370px;
     transition: all ease-in-out 0.7s;
 }
+
+.picture3:active {
+    margin-top: 200px;
+    margin-left: 700px;
+    width: 45%;
+    height: 370px;
+    transition: all ease-in-out 0.7s;
+}
+
+.picture4:active {
+    margin-top: 200px;
+    margin-left: 700px;
+    width: 45%;
+    height: 370px;
+    transition: all ease-in-out 0.7s;
+}
+
+/* hovers of pictures 
+
+.picture1:hover {
+    z-index: 1;
+    box-shadow: 0 0 5px 0 rgb(0,255,255);
+}
+
+*/
