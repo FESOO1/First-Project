@@ -15,8 +15,22 @@ img {
     display: flex;
 }
 
-.picture1, .picture2 {
-    position: relative;
-    margin-top: 150px;
+.picture1 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 220px;
+    box-shadow: 5px 0 5px 0 black;
+}
+
+.picture2 {
     margin-left: 50px;
+    margin-top: 220px;
+    position: absolute;
+    box-shadow: 5px 0 5px 0 black;
+}
+
+
+.picture1, .picture2 {
+    width: 25%;
+    height: 215px;
 }
