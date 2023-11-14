@@ -139,8 +139,11 @@ a:hover {
 }
 
 h1 {
+    user-select: none;
+    color: rgb(255, 127, 0);
     position: absolute;
-    margin-top: 665px;
-    margin-left: 760px;
+    margin-top: 700px;
+    margin-left: 780px;
     font-size: 1em;
+    text-decoration: underline;
 }
