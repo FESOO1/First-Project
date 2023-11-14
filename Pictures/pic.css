@@ -4,14 +4,14 @@
 }
 
 body {
-    
+    background: url(/Assets/special/11.jpg) no-repeat;
+    background-size: cover;
 }
 
 .container {
     width: 100%;
     height: 730px;
     position: fixed;
-    background: url(Assets/special for picture project/11.jpg);
 }
 
 
