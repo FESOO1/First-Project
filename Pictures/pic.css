@@ -123,16 +123,17 @@ img {
 
 .link {
     position: absolute;
-    margin-left: 750px;
-    margin-top: 222px;
+    margin-left: 1292px;
 }
 
 a {
-    font-size: 10em;
+    font-size: 4em;
     font-family: 'Give You Glory', cursive;
-    color: white;
+    color: rgb(83, 83, 83);
 }
 
 a:hover {
-    filter: drop-shadow(22px 15px 15px 22px rgb(20,20,20));
+    color: red;
+    filter: drop-shadow(15px);
+    transition: all ease-in-out 400ms;
 }
