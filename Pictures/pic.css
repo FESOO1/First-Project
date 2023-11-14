@@ -137,3 +137,10 @@ a:hover {
     color: red;
     transition: all ease-in-out 600ms;
 }
+
+h1 {
+    position: absolute;
+    margin-top: 665px;
+    margin-left: 760px;
+    font-size: 1em;
+}
