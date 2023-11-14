@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(/Assets/special/11.jpg) no-repeat;
+    background: url(/Assets/special/170189-ssha-dolina_smerti-makaron-peyzash-priroda-7680x4320.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -69,7 +69,7 @@ img {
 }
 
 .picture2:active {
-    box-shadow: 0 0 20px 10px rgb(0,255,255);
+    box-shadow: 0 0 20px 10px rgb(255,255,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -78,7 +78,7 @@ img {
 }
 
 .picture3:active {
-    box-shadow: 0 0 20px 10px rgb(0,255,255);
+    box-shadow: 0 0 20px 10px rgb(255,125,0);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -87,7 +87,7 @@ img {
 }
 
 .picture4:active {
-    box-shadow: 0 0 20px 10px rgb(0,255,255);
+    box-shadow: 0 0 20px 10px rgb(255,100,255);
     margin-top: 200px;
     margin-left: 700px;
     width: 45%;
@@ -103,17 +103,23 @@ img {
 }
 
 .picture2:hover {
-    box-shadow: 2px 2px 8px 0 rgb(80,80,80);
+    box-shadow: 2px 2px 8px 0 rgb(255,255,255);
     transition: all ease-out 500ms;
 }
 
 .picture3:hover {
-    box-shadow: 2px 2px 8px 0 rgb(0,255,255);
+    box-shadow: 2px 2px 8px 0 rgb(255,125,0);
     transition: all ease-out 500ms;
 }
 
 .picture4:hover {
-    box-shadow: 2px 2px 8px 0 rgb(0,255,255);
+    box-shadow: 2px 2px 8px 0 rgb(255,100,255);
     transition: all ease-out 500ms;
 }
 
+/* */
+
+footer {
+    font-size: 3em;
+    opacity: 100%;
+}
