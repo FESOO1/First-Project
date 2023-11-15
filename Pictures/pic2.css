@@ -3,16 +3,158 @@
     margin: 0;
 }
 
-/* 
-
 body {
-    background: url(/Assets/special/img1.akspic.ru-amoled-svet-fioletovyj-krasochnost-purpur-4320x7680.jpg) no-repeat;
-    background-size: cover;
+    background: rgb(40, 40, 40);
 }
 
-*/
+/* pictures top and left margins */
 
-img {
+.image1 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 50px;
+}
+
+.image2 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 100px;
+}
+
+.image3 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 150px;
+}
+
+.image4 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 200px;
+}
+
+.image5 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 250px;
+}
+
+.image6 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 300px;
+}
+
+.image7 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 350px;
+}
+
+.image8 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 400px;
+}
+
+.image9 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 450px;
+}
+
+/* Rotation and shadow of the pictures */
+
+
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9  {
     display: flex;
-    margin: 30px auto;
+    transform: rotate3d(45,45,180,60deg);
+    box-shadow: 11px 11px  11px 0 black;
+    border-radius: 10px;
 }
+
+/* Active  */
+
+.image1:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image2:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image3:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image4:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image5:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image6:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image7:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image8:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+.image9:active {
+    width: 666px;
+    height: 400px;
+    margin-left: 750px;
+    margin-top: 100px;
+    transform: rotate3d(0,0,0,0deg);
+    transition: all ease-out 0.7s;
+}
+
+/* Hover */
