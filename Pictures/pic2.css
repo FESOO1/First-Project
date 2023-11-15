@@ -4,7 +4,9 @@
 }
 
 body {
-    background: rgb(40, 40, 40);
+    background: url(/Assets/special/141732-oblako-voshod_solnca-pustynya-more-gorizont-7680x4320.jpg) no-repeat;
+    background-size: cover;
+    backdrop-filter: 22px;
 }
 
 /* pictures top and left margins */
