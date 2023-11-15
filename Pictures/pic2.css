@@ -167,25 +167,25 @@ body {
 
 .image2:hover {
     margin-top: 500px;
-    box-shadow: 8px 8px 25px 0 mintcream;
+    box-shadow: 8px 8px 25px 0 rgb(255,100,255);
     transition: all ease 200ms;
 }
 
 .image3:hover {
     margin-top: 500px;
-    box-shadow: 8px 8px 25px 0 mintcream;
+    box-shadow: 8px 8px 25px 0 rgb(253, 100, 100);
     transition: all ease 200ms;
 }
 
 .image4:hover {
     margin-top: 500px;
-    box-shadow: 8px 8px 25px 0 mintcream;
+    box-shadow: 8px 8px 25px 0 rgb(180, 135, 0);
     transition: all ease 200ms;
 }
 
 .image5:hover {
     margin-top: 500px;
-    box-shadow: 8px 8px 25px 0 mintcream;
+    box-shadow: 8px 8px 25px 0 rgb(40, 40, 40);
     transition: all ease 200ms;
 }
 
