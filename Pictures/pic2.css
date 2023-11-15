@@ -1,0 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(/Assets/special/img1.akspic.ru-amoled-svet-fioletovyj-krasochnost-purpur-4320x7680.jpg) no-repeat;
+    background-size: cover;
+}
