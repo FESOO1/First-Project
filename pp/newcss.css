@@ -105,3 +105,13 @@ a {
     margin-left: 23px;
     box-shadow: 0 0 5px 0 black;
 }
+
+/* */
+
+label {
+    display: block;
+}
+
+#email {
+    margin-left: 23px;
+}
