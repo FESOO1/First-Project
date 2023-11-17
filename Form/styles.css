@@ -49,3 +49,10 @@ h1 {
 h1 {
     filter: drop-shadow(-1px 1px 7px rgb(0, 225, 255));
 }
+
+/* submit button */
+
+.button {
+    margin-top: 10px;
+    padding: 5px;
+}
