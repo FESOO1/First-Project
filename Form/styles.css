@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #575757;
+}
+
+label {
+    display: block;
+}
+
+#email {
+    margin-left: 23px;
+}
+
+.container {
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    padding-bottom: 50px;
+}
+
+.container {
+    margin: 260px 40%;
+}
+
+input {
+    border-radius: 5px;
+}
