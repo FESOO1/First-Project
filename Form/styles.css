@@ -30,11 +30,6 @@ label {
     text-align: center;
 }
 
-h1 {
-    display: block;
-    padding-bottom: 50px;
-}
-
 .container {
     margin: 260px 40%;
 }
@@ -42,4 +37,15 @@ h1 {
 input {
     border-radius: 5px;
     border: 0 solid;
+}
+
+/* Reg text */
+
+h1 {
+    display: block;
+    padding-bottom: 50px;
+}
+
+h1 {
+    filter: drop-shadow(-1px 1px 7px rgb(0, 225, 255));
 }
