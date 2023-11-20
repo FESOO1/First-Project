@@ -61,6 +61,7 @@ a {
 /* Hover */
 
 .button:hover {
+    background-color: orange;
     font-size: 1.2rem;
     background-color: orange;
     box-shadow: -22px 15px 22px 11px rgb(255, 99, 0);
