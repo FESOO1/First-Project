@@ -13,7 +13,7 @@ body {
 .button {
     width: 150px;
     height: 50px;
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +29,18 @@ body {
     content: '';
     width: 150px;
     height: 10px;
-    background-color: yellowgreen;
+    background-color: rgb(222, 222, 222);
     position: absolute;
-    top: 49px;
-    left: -10px;
-    transform: skewX(-60deg);
+    top: 49.5px;
+    left: -8px;
+    transform: skewX(-58deg);
+}
+
+.button::before {
+    content: '';
+    width: 60px;
+    height: 10px;position: absolute;
+    background-color: rgb(222, 222, 222);
+    left: -40px;
+    transform: skewX(55deg);
 }
