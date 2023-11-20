@@ -68,6 +68,11 @@ a {
 }
 
 .button:hover::before {
-    background-color: orange;
+    background-color: rgb(207, 135, 2);
+    transition: all ease-in-out 200ms;
+}
+
+.button:hover::after {
+    background-color: rgb(207, 135, 2);
     transition: all ease-in-out 200ms;
 }
