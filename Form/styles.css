@@ -47,7 +47,7 @@ body {
     height: 14.1px;
     position: absolute;
     background-color: rgb(222, 222, 222);
-    left: -31.5px;
+    left: -31.4px;
     bottom: 13.2px;
     transform: rotate(90deg) skewX(33deg);
     z-index: 2;
@@ -63,7 +63,7 @@ a {
 .button:hover {
     font-size: 1.2rem;
     background-color: orange;
-    box-shadow: -22px 15px 10px 5px rgb(255, 99, 0);
+    box-shadow: -22px 15px 22px 11px rgb(255, 99, 0);
     transition: all ease-in-out 200ms;
 }
 
