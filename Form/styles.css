@@ -28,19 +28,20 @@ body {
 .button::after {
     content: '';
     width: 150px;
-    height: 10px;
+    height: 9.1px;
     background-color: rgb(222, 222, 222);
     position: absolute;
-    top: 49.5px;
-    left: -8px;
-    transform: skewX(-58deg);
+    top: 49.7px;
+    left: -7px;
+    transform: skewX(-57deg);
 }
 
 .button::before {
     content: '';
-    width: 60px;
-    height: 10px;position: absolute;
+    width: 49.5px;
+    height: 14px;position: absolute;
     background-color: rgb(222, 222, 222);
-    left: -40px;
-    transform: rotateZ(40deg) skewY(-50deg);
+    left: -31.5px;
+    bottom: 13.5px;
+    transform: rotate(90deg) skewX(33deg);
 }
