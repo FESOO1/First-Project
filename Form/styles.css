@@ -28,7 +28,7 @@ body {
 .button::after {
     content: '';
     width: 150px;
-    height: 9.1px;
+    height: 9.2px;
     background-color: rgb(222, 222, 222);
     position: absolute;
     top: 49.7px;
@@ -39,10 +39,11 @@ body {
 .button::before {
     content: '';
     width: 49.5px;
-    height: 14px;position: absolute;
+    height: 14.1px;
+    position: absolute;
     background-color: rgb(222, 222, 222);
-    left: -31.6px;
-    bottom: 13.5px;
+    left: -31.7px;
+    bottom: 13.2px;
     transform: rotate(90deg) skewX(33deg);
     z-index: 2;
 }
@@ -54,6 +55,7 @@ a {
 
 /* Hover */
 
-.button {
-    
+.button:hover {
+    background-color: orange;
+    box-shadow: -15px 15px 10px 5px rgb(255, 99, 0);
 }
