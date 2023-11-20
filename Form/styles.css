@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +14,7 @@ body {
 }
 
 .button {
+    font-family: 'Bungee', sans-serif;
     width: 150px;
     height: 50px;
     background-color: rgb(255, 255, 255);
