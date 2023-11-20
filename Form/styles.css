@@ -27,7 +27,7 @@ body {
 
 .button {
     transform: rotate(-20deg) skewX(50deg);
-    box-shadow: -15px 15px 10px 5px black;
+    box-shadow: -22px 15px 10px 5px black;
 }
 
 .button::after {
@@ -61,9 +61,9 @@ a {
 /* Hover */
 
 .button:hover {
-    font-size: larger;
+    font-size: 1.2rem;
     background-color: orange;
-    box-shadow: -15px 15px 10px 5px rgb(255, 99, 0);
+    box-shadow: -22px 15px 10px 5px rgb(255, 99, 0);
     transition: all ease-in-out 200ms;
 }
 
