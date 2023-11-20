@@ -42,5 +42,5 @@ body {
     height: 10px;position: absolute;
     background-color: rgb(222, 222, 222);
     left: -40px;
-    transform: skewX(55deg);
+    transform: rotateZ(40deg) skewY(-50deg);
 }
