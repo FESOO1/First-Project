@@ -36,18 +36,18 @@ body {
     height: 9.2px;
     background-color: rgb(222, 222, 222);
     position: absolute;
-    top: 49.7px;
+    top: 49.5px;
     left: -7px;
     transform: skewX(-57deg);
 }
 
 .button::before {
     content: '';
-    width: 49.5px;
+    width: 49.4px;
     height: 14.1px;
     position: absolute;
     background-color: rgb(222, 222, 222);
-    left: -31.7px;
+    left: -31.5px;
     bottom: 13.2px;
     transform: rotate(90deg) skewX(33deg);
     z-index: 2;
