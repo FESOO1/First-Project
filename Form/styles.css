@@ -21,5 +21,17 @@ body {
 }
 
 .button {
-    transform: rotate(-45deg) skewX(40deg);
+    transform: rotate(-20deg) skewX(50deg);
+    box-shadow: -15px 15px 10px 5px black;
+}
+
+.button::after {
+    content: '';
+    width: 150px;
+    height: 10px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 49px;
+    left: -10px;
+    transform: skewX(-60deg);
 }
