@@ -41,7 +41,13 @@ body {
     width: 49.5px;
     height: 14px;position: absolute;
     background-color: rgb(222, 222, 222);
-    left: -31.5px;
+    left: -31.6px;
     bottom: 13.5px;
     transform: rotate(90deg) skewX(33deg);
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
