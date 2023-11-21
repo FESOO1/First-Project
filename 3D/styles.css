@@ -11,6 +11,8 @@ body {
 }
 
 .button {
+    font-size: 5rem;
+    border-top-right-radius: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,11 +30,26 @@ body {
 
 .button::before {
     content: '';
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 2px;
     width: 100px;
-    height: 25px;
+    height: 25.4px;
     position: absolute;
     background-color: rgb(222, 200, 200);
     right: 290px;
     bottom: 26px;
-    transform: rotate(90deg) skewX(44deg);
+    transform: rotate(90deg) skewX(43deg);
+}
+
+.button::after {
+    content: '';
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    width: 329px;
+    height: 23px;
+    top: 100px;
+    left: -13.3px;
+    position: absolute;
+    background-color: rgb(222, 200, 200);
+    transform: skewX(-47deg);
 }
