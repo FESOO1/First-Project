@@ -74,6 +74,6 @@ a {
 }
 
 .button:hover::after {
-    background-color: rgb(207, 135, 1);
+    background-color: rgb(207, 135, 2);
     transition: all ease-in-out 200ms;
 }
