@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +13,8 @@ body {
 }
 
 .button {
+    box-shadow: -38px 35px 5px 0  black;
+    font-family: 'Mina', sans-serif;
     font-size: 5rem;
     border-top-right-radius: 11px;
     display: flex;
@@ -36,7 +40,7 @@ body {
     height: 25.4px;
     position: absolute;
     background-color: rgb(222, 200, 200);
-    right: 290px;
+    right: 289.3px;
     bottom: 26px;
     transform: rotate(90deg) skewX(43deg);
 }
@@ -44,10 +48,10 @@ body {
 .button::after {
     content: '';
     border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 5px;
     width: 329px;
     height: 23px;
-    top: 100px;
+    top: 99.5px;
     left: -13.3px;
     position: absolute;
     background-color: rgb(222, 200, 200);
