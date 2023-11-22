@@ -44,6 +44,7 @@
 }
 
 .wall-two {
+    opacity: 50%;
     margin-left: -115px;
     margin-top: 203px;
     position: absolute;
@@ -53,3 +54,14 @@
 }
 
 /* Left and Right walls */
+
+.wall-three {
+    opacity: 50%;
+    margin: 236px;
+    margin-left: 443px;
+    position: absolute;
+    background-color: rgb(132, 132, 132);
+    width: 200px;
+    height: 220px;
+    transform: rotate(50deg) skewY(40deg);
+}
