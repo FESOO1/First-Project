@@ -22,18 +22,42 @@ body {
 }
 
 .box-up {
+    opacity: 50%;
     margin: 80px;
-    background-color: white;
+    background-color: rgb(70, 70, 70);
     width: 150px;
     height: 150px;
     transform: rotate(-130deg) skewY(-50deg);
 }
 
 .box-down {
+    opacity: 50%;
     position: absolute;
     margin: 350px;
-    background-color: white;
+    background-color: rgb(70, 70, 70);
     width: 150px;
     height: 150px;
     transform: rotate(-130deg) skewY(-50deg);
+}
+
+/* Back and front walls*/
+
+.wall-one {
+    margin-left: 114px;
+    z-index: -1;
+    margin-top: 107px;
+    position: absolute;
+    background-color: white;
+    width: 233px;
+    height: 270px;
+}
+
+.wall-two {
+    opacity: 50%;
+    margin-left: -115px;
+    margin-top: 203px;
+    position: absolute;
+    background-color: white;
+    width: 233px;
+    height: 270px;
 }
