@@ -15,10 +15,9 @@ body {
     display: flex;
     justify-content: center;
     margin-left: 500px;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 2px solid red;
-    border-radius: 360px;
 }
 
 .box-up {
@@ -106,7 +105,8 @@ body {
     transition: all ease-in-out 200ms;
 }
 
-.wall-two: {
+.wall-two:hover {
+    border-radius: 20px;
     margin: 300px;
     margin-left: -200px;
     transition: all ease-in-out 1s;
