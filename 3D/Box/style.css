@@ -21,7 +21,6 @@
 }
 
 .box-down {
-    opacity: 50%;
     position: absolute;
     margin: 350px;
     background-color: rgb(70, 70, 70);
