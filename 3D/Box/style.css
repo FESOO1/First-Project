@@ -64,3 +64,16 @@
     height: 149.2px;
     transform: rotate(50deg) skewY(40deg);
 }
+
+.wall-four {
+    z-index: -1;
+    margin: 215.5px;
+    margin-left: -18px;
+    position: absolute;
+    background-color: rgb(187, 187, 187);
+    width: 207px;
+    height: 149.2px;
+    transform: rotate(50deg) skewY(40deg);
+}
+
+/* */
