@@ -81,7 +81,14 @@ body {
     transform: rotate(50deg) skewY(40deg);
 }
 
-/* Wall two */
+/* Wall two and down texts */
+
+.box-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
 
 .wall-two {
     display: flex;
