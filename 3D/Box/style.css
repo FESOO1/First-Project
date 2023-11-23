@@ -81,3 +81,9 @@
     font-size: 4rem;
     color: red;
 }
+
+/* SHADOW */
+
+.box-down {
+    box-shadow: -20px -50px 5px 0 black;
+}
