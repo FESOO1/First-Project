@@ -7,13 +7,12 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: rgb(200,200,200);
     width: 100%;
     height: 100vh;
 }
 
 .box-up {
-    opacity: 50%;
+    opacity: 80%;
     margin: 80px;
     background-color: rgb(70, 70, 70);
     width: 150px;
@@ -76,4 +75,12 @@
     transform: rotate(50deg) skewY(40deg);
 }
 
-/* */
+/* Wall two */
+
+.wall-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: red;
+}
