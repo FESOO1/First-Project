@@ -1,3 +1,6 @@
 label {
     display: block;
+    max-width: 200px;
+    min-width: 50px;
+    width: 50vw;
 }
