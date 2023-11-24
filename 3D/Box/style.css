@@ -108,8 +108,9 @@ body {
 
 .box-up:active {
     margin: -50px;
+    border-radius: 180px;
     box-shadow: inset 0 0 15px red;
-    transition: all ease-in-out 200ms;
+    transition: all ease-in-out 1s;
 }
 
 .wall-two:hover {
