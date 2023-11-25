@@ -1,19 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.btc-echo.de/wp-content/uploads/2023/10/shutterstock_1309155826-scaled.jpg);
+    background-size: cover;
+}
+
+h1, p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 2.7rem;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
+
+
+.container {
+    background: blur(200px);
+    margin-left: 500px;
+    padding: 20px;
+    position: absolute;
+    width: 500px;
+    background-color: rgba(50, 89, 205, 0.553);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 label {
-    padding: 50px;
     display: block;
-    background-color: yellowgreen;
-    text-decoration: underline;
-}
-
-.one {
-    vertical-align: text-bottom;
-}
-
-
-input [type="email"] {
-    color: red;
-}
-
-::-webkit-input-placeholder {
-    color: red;
 }
