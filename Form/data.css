@@ -8,3 +8,12 @@ label {
 .one {
     vertical-align: text-bottom;
 }
+
+
+input [type="email"] {
+    color: red;
+}
+
+::-webkit-input-placeholder {
+    color: red;
+}
