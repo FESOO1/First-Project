@@ -1,11 +1,10 @@
-p {
-    color: red;
+label {
+    padding: 50px;
+    display: block;
+    background-color: yellowgreen;
+    text-decoration: underline;
 }
 
-p:last-of-type {
-    color: black;
-}
-
-p:first-child {
-    color: green;
+.one {
+    vertical-align: text-bottom;
 }
