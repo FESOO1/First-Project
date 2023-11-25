@@ -9,16 +9,17 @@
 <body>
     <div class="title-explanation">
         <h1 id="title">FES001 Project</h1>
-        <p id="description">This page is created by <a style="text-decoration: none;" target="_blank" href="https://t.me/FES001"> FES001</a> to get the certificate of <a style="text-decoration: none;" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form"> freeCodeCamp.org</a>!</p>
+        <p id="description">This page is created by <a style="text-decoration: none;" target="_blank" href="https://t.me/FES001">   FES001</a> to get the certificate of <a style="text-decoration: none;" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form"> freeCodeCamp.org</a>!</p>
     </div>
     <div class="container">
         <form id="survey-form" method="post">
-            <label for="name">Name <input required type="text" placeholder="Enter your name" id="name"></label>
-            <label for="email">Email <input required type="email" id="email" placeholder="Enter your email"></label>
-            <label for="number">Age(optional) <input type="number" id="number" min="12" max="100" placeholder="Age"></label>
-            <label for="role">Which option best describes your current role? 
+            <label id="name-label" for="name">Name <input required type="text" placeholder="Enter your name" id="name"></label>
+            <label id="email-label" for="email">Email <input required type="email" id="email" placeholder="Enter your email"></label>
+            <label id="number-label" for="number">Age (optional) <input type="number" id="number" min="12" max="100" placeholder="Age"></label>
+            <hr>
+            <label class="select1" for="role">Which option best describes your current role? 
                 <select id="dropdown">
-                    <option value="""">Select current role</option>
+                    <option value="0">Select current role</option>
                     <option value="1">Student</option>
                     <option value="2">Full Time Job</option>
                     <option value="3">Full Time Learner</option>
@@ -27,9 +28,9 @@
                 </select>
             </label>
             <legend>Would you recommend freeCodeCamp to a friend?</legend>
-            <label><input type="radio" name="recommending"> Definitely</label>
-            <label><input type="radio" name="recommending"> Maybe</label>
-            <label><input type="radio" name="recommending"> Not sure</label>
+            <label><input type="radio" value="option1" name="recommending"> Definitely</label>
+            <label><input type="radio" value="option2" name="recommending"> Maybe</label>
+            <label><input type="radio" value="option3" name="recommending"> Not sure</label>
             <label for="feature">What is your favorite feature of freeCodeCamp?
                 <select id="feature">
                     <option value="">Select an option</option>
@@ -53,7 +54,7 @@
                 <label for=""><input type="checkbox" value="10"> Forum</label>
                 <label for=""><input type="checkbox" value="11"> Additional Courses</label>
             </fieldset>
-            <label for="">Any Comments or suggestions? <textarea cols="30" rows="10" Enter your comment here...></textarea></label>
+            <label class="text-box">Any Comments or suggestions? <textarea class="text-box" cols="30" rows="5"  placeholder="Enter your comment here..."></textarea></label>
             <label for="submit"><input type="submit" id="submit" value="Submit"></label>
         </form>
     </div>
