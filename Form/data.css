@@ -1,6 +1,11 @@
-label {
-    display: block;
-    max-width: 200px;
-    min-width: 50px;
-    width: 50vw;
+p {
+    color: red;
+}
+
+p:last-of-type {
+    color: black;
+}
+
+p:first-child {
+    color: green;
 }
