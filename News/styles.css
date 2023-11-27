@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -23,17 +30,20 @@ h1, p {
 }
 
 h1 {
+    font-family: 'Cairo Play', sans-serif;
     padding-top: 30px;
     font-size: 3rem;
 }
 
 p {
+    font-family: 'Philosopher', sans-serif;
     padding-bottom: 15px;
 }
 
 /* box section */
 
 .box {
+    box-shadow: 0 0 4px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -42,10 +52,11 @@ p {
     height: 75vh;
     background-color: white;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 h2 {
+    font-family: 'Exo 2', sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -62,6 +73,7 @@ li {
 }
 
 h2 {
+    
     margin-top: 33px;
 }
 
@@ -81,6 +93,7 @@ img {
 }
 
 .picture-text {
+    font-family: 'Nova Square', sans-serif;
     text-align: center;
     width: 777px;
     color: black;
