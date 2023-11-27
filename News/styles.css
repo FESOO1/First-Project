@@ -12,14 +12,14 @@
 
 body {
     width: 100%;
-    height: 200vh;
+    height: 205vh;
 }
 
 .container {
     border-radius: 0.5rem;
     margin: 50px auto;
     width: 98%;
-    height: 194vh;
+    height: 198vh;
     background-color: rgb(217, 217, 217);
 }
 
@@ -79,7 +79,7 @@ h2 {
 a {
     text-decoration: underline;
     text-decoration-thickness: 2.0px;
-    color: black;
+    color: #477ca7;
     margin-left: 4px;
 }
 
