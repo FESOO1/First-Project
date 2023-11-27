@@ -72,10 +72,6 @@ input[type="radio"] {
     display: block;
 }
 
-hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 fieldset {
     border: 0;
@@ -89,6 +85,7 @@ select {
 }
 
 #name-label, #email-label, #number-label {
+    margin: 15px 9px;
     margin-top: 10px;
 }
 
@@ -108,19 +105,19 @@ select {
 }
 
 .role {
-    margin: 10px 5px;
+    margin: 10px 15px;
 }
 
 .recommend {
-    margin: 10px 5px;
+    margin: 10px 15px;
 }
 
 .feature {
-    margin: 10px 5px;
+    margin: 10px 15px;
 }
 
 .options {
-    margin: 15px 5px;
+    margin: 15px 15px;
 }
 
 input[type="checkbox"] {
@@ -132,7 +129,7 @@ input[type="checkbox"] {
 .submit {
     font-family: 'Nunito', sans-serif;
     color: yellowgreen;
-    margin: 15px 9px;
+    margin: 15px 15px;
     color: white;
     font-size: 1.3rem;
 }
@@ -154,3 +151,5 @@ h1 {
 p {
     font-family: 'Chakra Petch', sans-serif;
 }
+
+/* Shadow */
