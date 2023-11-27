@@ -45,14 +45,6 @@ p {
     border-radius: 5px;
 }
 
-img {
-    position: absolute;
-    width: 800px;
-}
-caption {
-    margin-top: 400px;
-}
-
 h2 {
     display: flex;
     justify-content: center;
@@ -78,4 +70,24 @@ a {
     text-decoration-thickness: 2.0px;
     color: black;
     margin-left: 4px;
+}
+
+
+img {
+    border-radius: 20px;
+    position: absolute;
+    width: 900px;
+    opacity: 44%;
+}
+
+.picture-text {
+    text-align: center;
+    width: 777px;
+    color: black;
+    font-size: 4rem;
+}
+
+img:hover  {
+    opacity: 100%;
+    transition: all ease-in-out 200ms;
 }
