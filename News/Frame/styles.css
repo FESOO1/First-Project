@@ -25,21 +25,13 @@ body {
 }
 
 .text {
-    --color-1: red;
-    --color-2: blue;
-    background-image: linear-gradient(70deg, var(--color-1), var(--color-2));
     border-radius: 1rem;
     width: 380px;
     height: 580px;
-    z-index: 2;
+    z-index: 1;
     font-size: 3rem;
     font-family: 'Nova Square', sans-serif;
-    transition: var(--color-1) 1000ms, var(--color-2) 2000ms 1000ms;
-}
-
-.text:hover {
-    --color-1: red;
-    --color-2: blue;
+    background: linear-gradient(90deg, rgb(200,200,200), rgb(255,255,255), rgb(200,200,200));
 }
 
 
