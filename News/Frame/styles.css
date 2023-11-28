@@ -20,18 +20,21 @@ body {
     margin: auto;
     width: 400px;
     height: 600px;
-    background-color: white;
+    background: linear-gradient(0deg, red,blue,green,pink,yellow,purple,orange,brown,blue,green,pink,yellow,purple,orange,brown);
     border-radius: 1rem;
+    animation: infinite;
+    transform: rotate(360deg) 10s;
 }
 
 .text {
+    opacity: 50%;
     border-radius: 1rem;
     width: 380px;
     height: 580px;
     z-index: 1;
     font-size: 3rem;
     font-family: 'Nova Square', sans-serif;
-    background: linear-gradient(90deg, rgb(200,200,200), rgb(255,255,255), rgb(200,200,200));
+    background: linear-gradient(0deg, rgb(200,200,200), rgb(255,255,255), rgb(200,200,200));
 }
 
 
