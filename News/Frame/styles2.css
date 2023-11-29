@@ -44,7 +44,7 @@ body {
     margin: auto;
     width: 550px;
     height: 700px;
-    background: linear-gradient(90deg, red,orange,blue,yellow);
+    background: linear-gradient(90deg, red,rgb(0,255,0),orange,blue,yellow,rgb(0,255,255));
     animation: spin 5s linear infinite;
 }
 
@@ -70,4 +70,9 @@ h1 {
     width: 300px;
     height: 450px;
     transition: all ease-in-out 300ms;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
