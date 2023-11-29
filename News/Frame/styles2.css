@@ -76,3 +76,16 @@ a {
     text-decoration: none;
     color: white;
 }
+
+h1:hover {
+    animation: spin 1s linear 1;
+}
+
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(10deg);}
+    40%{transform: rotate(-10deg);}
+    60%{transform: rotate(10deg);}
+    80%{transform: rotate(-10deg);}
+    100%{transform: rotate(0deg);}
+}
