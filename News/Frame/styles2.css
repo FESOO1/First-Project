@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -23,12 +25,10 @@ body {
     width: 300px;
     height: 450px;
     overflow: hidden;
-    box-shadow: 0 0 11px red;
 }
 
 .frame::before {
     content: '';
-    box-shadow:  inset 0 0 11px blue;
     border-radius: 0.5rem;
     position: absolute;
     margin: auto;
@@ -42,9 +42,9 @@ body {
     content: '';
     position: absolute;
     margin: auto;
-    width: 222px;
+    width: 550px;
     height: 700px;
-    background: linear-gradient( red, blue);
+    background: linear-gradient(90deg, red,orange,blue,yellow);
     animation: spin 5s linear infinite;
 }
 
@@ -53,6 +53,7 @@ body {
 }
 
 h1 {
+    font-family: 'Nova Square', sans-serif;
     z-index: 2;
     font-size: 4em;
     color: white;
