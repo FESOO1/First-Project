@@ -1,0 +1,61 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 11, 22);
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    border-radius: 0.5rem;
+    width: 222px;
+    height: 44px;
+    background-color: whitesmoke;
+}
+
+.button::before {
+    z-index: 1;
+    border-radius: 0.2rem;
+    padding: 5px;
+    content: '';
+    position: absolute;
+    background: linear-gradient(rgb(111,111,222), rgb(0,11,22));
+    width: 220px;
+    height: 40px;
+}
+
+.button::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(rgb(255,0 , 0),blue);
+    animation: submit 5s linear infinite;
+}
+
+@keyframes submit {
+    100%{transform: rotate(360deg);}
+}
+
+a {
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: serif;
+}
