@@ -63,13 +63,29 @@ a {
 .button:hover {
     width: 227px;
     height: 49px;
-    box-shadow: 0 0 22px rgb(255, 255, 255);
+    box-shadow: 0 0 222px rgb(255, 255, 255);
     transition: all ease-in-out 200ms;
 }
 
 .button:hover::before {
-    background: rgb(111,111,222);
+    background: rgb(0, 33, 90);
     width: 222px;
     height: 44px;
     transition: all ease-in-out 200ms;
+}
+
+.button:hover::after {
+    background: rgb(255, 255, 255);
+}
+
+.shadow {
+    z-index: 5;
+    background-color: white;
+    position: absolute;
+    width: 230px;
+    height: 250px;
+    top: 370px;
+    transform: rotateX(80deg);
+    border-radius: 180px;
+    filter: blur(70px);
 }
