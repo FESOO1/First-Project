@@ -53,6 +53,11 @@ body {
 }
 
 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 227px;
+    height: 49px;
     z-index: 2;
     color: white;
     text-decoration: none;
@@ -63,7 +68,7 @@ a {
 .button:hover {
     width: 227px;
     height: 49px;
-    box-shadow: 0 0 222px rgb(255, 255, 255);
+    box-shadow: 0 10px 222px rgb(255, 255, 255);
     transition: all ease-in-out 200ms;
 }
 
