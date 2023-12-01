@@ -95,6 +95,6 @@ a {
     filter: blur(70px);
 }
 
-shadow:hover {
+.shadow:checked {
     transform: scale(120%, 120%);
 }
