@@ -115,3 +115,41 @@ a {
     33%{transform: translateX(-150px) rotateZ(-150deg);}
     100%{transform: translateX(0px) rotateZ(0deg);}
 }
+
+.round {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 5rem;
+    margin-top: -500px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(153, 153, 153);
+}
+
+.round::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    color: black;
+    content: 'Do you have a question?';
+    width: 200px;
+    height: 33px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: -150px;
+    border-radius: 1rem;
+    transform: rotateY(90deg);
+    transition: 0.2s;
+}
+
+.round:hover::before {
+    transform: rotateY(0deg) translateX(70px);
+    transition: all ease-in-out 300ms;
+
+}
