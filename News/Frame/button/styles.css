@@ -113,7 +113,8 @@ a {
     0%{transform: translateX(0px) rotateZ(0deg);}
     33%{transform: translateX(150px) rotateZ(50deg);}
     33%{transform: translateX(-150px) rotateZ(-150deg);}
-    100%{transform: translateX(0px) rotateZ(0deg);}
+    100%{background-color: rgb(7, 7, 7);
+        transform: translateX(-50px) rotateZ(0deg);}
 }
 
 .round {
@@ -152,4 +153,29 @@ a {
     transform: rotateY(0deg) translateX(70px);
     transition: all ease-in-out 300ms;
 
+}
+
+.frame {
+    left: 1100px;
+    position: absolute;
+}
+
+img {
+    box-shadow: 0 0 12px 2px rgb(222,111,2),
+    inset 0 0 52px black;
+    background-color: black;
+    border-radius: 1rem;
+    border: 2px solid orange;
+}
+
+.frame:hover {
+    animation: frame 4s linear 1;
+}
+
+@keyframes frame {
+    0%{transform: rotateY(0deg);}
+    33%{transform: rotateY(80deg);}
+    66%{transform: rotateY(180deg);}
+    80%{transform: rotateY(250deg);}
+    100%{transform: rotateY(360deg);}
 }
