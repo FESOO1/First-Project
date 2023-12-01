@@ -94,7 +94,3 @@ a {
     border-radius: 180px;
     filter: blur(70px);
 }
-
-.shadow:hover {
-    transform: scale(120%, 120%);
-}
