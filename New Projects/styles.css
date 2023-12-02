@@ -24,10 +24,5 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-between;
     align-items: center;
-}
-
-img {
-    padding: 5px;
 }
