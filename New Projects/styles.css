@@ -30,3 +30,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.container:last-child {
+    align-items: start;
+}
