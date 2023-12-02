@@ -21,9 +21,9 @@ header {
 }
 
 .container {
-    padding: 15px;
+    padding: 10px;
     row-gap: 5px;
-    column-gap: 5px;
+    column-gap: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
