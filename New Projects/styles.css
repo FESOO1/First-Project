@@ -17,9 +17,13 @@ header {
 .container img {
     width: 400px;
     height: 300px;
+    object-fit: cover;
 }
 
 .container {
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
