@@ -21,7 +21,8 @@ header {
 }
 
 .container {
-    padding: 5px;
+    padding: 15px;
+    row-gap: 5px;
     column-gap: 5px;
     display: flex;
     flex-direction: row;
